@@ -3,10 +3,6 @@ import threading, os, sys, json, time
 from bs4 import BeautifulSoup as bs
 import requests as ru
 from fake_useragent import UserAgent
-from warn.warn import *
-from etc.bener import *
-from etc.ua import *
-from etc.loding import *
 class main:
  def main():
   hyu = str(input(f"{kun}[{kan}•{kun}] {im}Masukkan pilihan : "))
